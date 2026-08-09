@@ -18,7 +18,7 @@ The raw data was provided as three separate tables:
 * **TABLE_RETAILER** — Contains retailer IDs, retailer names, regions, states, and cities.
 * **TABLE_SALES** — Contains order information, invoice dates, products, prices, units sold, operating margins, and sales methods.
 
-The three tables were merged using `PRODUCT_ID` and `RETAILER_ID`.
+The three tables were merged using PRODUCT_ID and RETAILER_ID.
 
 ## Data Preparation
 
@@ -28,7 +28,7 @@ The dataset was examined and cleaned before analysis. Key preparation steps incl
 * Merging the three tables together
 * Identifying missing values
 * Filling missing product prices using the median price for the corresponding product ID
-* Replacing an invalid retailer ID and missing retailer/location information with `"Unknown"`
+* Replacing an invalid retailer ID and missing retailer/location information with "Unknown"
 * Converting different columns to the correct data types
 * Identifying and correcting outlier values
 * Checking for duplicate rows
@@ -54,11 +54,11 @@ The analysis answers the following questions:
 
 ## Files
 
-* `RUSH_Sales_Data_Analysis.ipynb` — Google Colab/Jupyter Notebook containing the data preparation, exploratory data analysis, business questions, and findings.
+* RUSH_Sales_Data_Analysis.ipynb — Google Colab/Jupyter Notebook containing the data preparation, exploratory data analysis, business questions, and findings.
 * RUSH Data Dictionary.pdf - Data dictionary for better understanding of the data. 
-* `TABLE_PRODUCTS_885.csv` — Product data.
-* `TABLE_RETAILER_885.csv` — Retailer and location data.
-* `TABLE_SALES_885.csv` — Sales transaction data.
+* TABLE_PRODUCTS_885.csv — Product data.
+* TABLE_RETAILER_885.csv — Retailer and location data.
+* TABLE_SALES_885.csv — Sales transaction data.
 
 ## Conclusion
 
